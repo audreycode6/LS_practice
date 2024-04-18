@@ -1,0 +1,23 @@
+Reading Documentation 1:
+    # Large Numbers DONE :D
+
+Reading Documentation 2
+    # Date DONE,
+    # needed help but this isn't so important to memorize, have info in notes
+
+Variable Scope
+    # What's My Value (part1) DONE :D
+    # What's My Value (part2) DONE :D
+    # What's My Value (part5) DONE :D
+    # What's My Value (part9) DONE :D
+    # What's My Value (part10) DONE :D
+
+Lists
+    # Checking items off the grocery list DONE :D
+
+Debugging
+    # Matrix  DONE :D
+
+9/100 struggles and 91/100 felt good! - first round
+99/100 felt strong completing! -extra practice
+    # date: struggled a bit to locate solution in module

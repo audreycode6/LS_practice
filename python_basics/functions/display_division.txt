@@ -1,0 +1,26 @@
+def multiples_of_three():
+    divisor = 1
+
+    for dividend in range(3, 31, 3):
+        print(f'{dividend} / {divisor} = 3')
+        divisor += 1
+
+multiples_of_three()
+
+This would print 10 statements: 
+Dividend would hold the range of multiples of 3 all the way to 30 because it follows range(3, 31, 3) : dividends (3, 6, 9, 12, 15, 18, 21, 24, 27, 30)
+Divisor holds the index of the for loop which would be: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10).
+In the for loop it will print the following output until range is finished being looped
+``` python
+# output
+3 / 1 = 3
+6 / 2 = 3
+9 / 3 = 3
+12 / 4 = 3
+15 / 5 = 3
+18 / 6 = 3
+21 / 7 = 3
+24 / 8 = 3
+27 / 9 = 3
+30 / 10 = 3
+

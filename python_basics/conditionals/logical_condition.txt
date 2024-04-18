@@ -1,0 +1,45 @@
+# prompt: Predict the output of the following code:
+
+if False or True: # returns a truthy ot falsy value,
+    print('Yes!')
+else:
+    print('No...')
+
+# my answer: 
+the or statement looks for only 1 condition to be true in the if statement. 
+The options are False or True and True is truthy 
+so the condition always evaluates as truthy.
+
+
+# prompt: Predict the output of the following code:
+
+if True and False:
+    print('Yes!')
+else:
+    print('No...')
+
+# my answer: 
+this code uses the logical and operator. 
+And checks if both conditions return Truthy. if so it prints 'Yes!'
+if 1 or both conditions do not return Truthy, it prints 'No...'
+This code would print No... because False does not return Truthy 
+so the if statement is evaluated to be Falsy
+
+# prompt: Without running the following code, determine what will be printed.
+
+sale = True
+admission_price = 5.25 if not sale else 3.99
+
+print(f"${admission_price}")
+
+# my answer: 
+This code would print: $3.99.
+Sale is initialized to True at top and code is read from top to bottom 
+so sale will remain True unless sale's value is changed in following lines 
+of code (which doesn't happen).
+Admission price has 2 values: if not sale (aka sale == False) it is 5.25 
+ELSE 3.99 (aka if sale == True)
+We know sale is already set to True so now admissions_price is set to 3.99.
+Then we continue through code to print statement: 
+which has a f string to print $ + the value of admission_price.
+ Therefore: $3.99 is printed
